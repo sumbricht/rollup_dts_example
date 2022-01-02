@@ -1,0 +1,27 @@
+{
+  "name": "rollup_dts_example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sumbricht/rollup_dts_example.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sumbricht/rollup_dts_example/issues"
+  },
+  "homepage": "https://github.com/sumbricht/rollup_dts_example#readme",
+  "dependencies": {
+    "@types/node": "^17.0.6",
+    "@rollup/plugin-commonjs": "^21.0.1",
+    "@rollup/plugin-node-resolve": "^13.1.2",
+    "rollup-plugin-polyfill-node": "^0.8.0",
+    "rollup-plugin-ts": "^2.0.4",
+    "typeorm": "^0.2.41"
+  }
+}
